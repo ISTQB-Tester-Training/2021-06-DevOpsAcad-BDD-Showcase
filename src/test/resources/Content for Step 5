@@ -27,7 +27,7 @@ public class BDDShowcaseStepDefinitions {
 
     }
     @Dann("berechnet das System korrekt die gesetzlich vorgeschriebene Ruhepause von {int} Stunden")
-    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten (Int pauseTime) {
+    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten (Integer pauseTime) {
 
         assertEquals(pauseTime, aEmployee.getPauseTime(aStartTime, aEndTime), 0);
     }
