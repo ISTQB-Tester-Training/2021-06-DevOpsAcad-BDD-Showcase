@@ -27,7 +27,7 @@ public class BDDShowcaseStepDefinitions {
 
     }
     @Dann("berechnet das System korrekt die gesetzlich vorgeschriebene Ruhepause von {int} Minuten")
-    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten(Integer int) {
+    public void berechnet_das_system_korrekt_die_gesetzlich_vorgeschriebene_ruhepause_von_minuten(Integer int1) {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
